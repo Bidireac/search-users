@@ -1,0 +1,49 @@
+.Card-details {
+  width: 300px;
+  margin: 10px;
+
+  .card {
+    background-color: #fafafa;
+  }
+
+  .card-body img,
+  .card-body h5,
+  .card-body a {
+    padding: 10px;
+  }
+
+  & a {
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fff;
+    background: #23074d; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #cc5333,
+      #23074d
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #cc5333,
+      #23074d
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  & a:hover {
+    color: #fafafa;
+    background: #0f0c29; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #24243e,
+      #302b63,
+      #0f0c29
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #24243e,
+      #302b63,
+      #0f0c29
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+}

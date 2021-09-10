@@ -1,0 +1,15 @@
+.SignUp {
+  width: 50%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+  .title {
+    margin: 10px 0;
+  }
+}
