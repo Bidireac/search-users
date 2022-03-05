@@ -29,3 +29,7 @@ To run this project, open the file location in the terminal and run npm start.
 
 ## Status
 Project is:  _finished
+
+## Live Demo
+
+https://razvan-search-users.herokuapp.com/
